@@ -2,6 +2,8 @@
 
 These table report the sensitivity of Big Bang Nucleosynthesis (BBN) observables to variations in fundamental and nuclear parameters, computed using [PRyMordial](https://github.com/valluri/PRyMordial). Each row corresponds to a single (parameter, compilation, observable) combination. 
 
+An easy to read version of this table is available here: https://docs.google.com/spreadsheets/d/1Ti9dJcO_a7xftWVwTKQciguHgpE_WNq3TINKYAiSZGs/edit?usp=sharing
+
 ### Column Descriptions
 
 | Column | Description |
