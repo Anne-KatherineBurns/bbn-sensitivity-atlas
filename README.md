@@ -23,7 +23,7 @@ Each parameter directory contains plots of the predicted primordial abundances (
 - **Helium-4**: LBT ([Aver et al. 2026](https://arxiv.org/abs/2601.22238)) and EMPRESS ([Matsumoto et al. 2022](https://arxiv.org/abs/2203.09617))
 - **Deuterium**: PDG world average, 2025 update ([Navas et al. 2025](https://ccwww.kek.jp/pdg/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf)))
 - **Lithium-7**: PDG recommended value, 2025 update ([Navas et al. 2025](https://ccwww.kek.jp/pdg/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf))
-- **N_eff**: ACT DR6 ([Calabrese et al. 2025](https://arxiv.org/abs/2503.14454))
+- **N_eff**: CMB+BBN+BAO ([Goldstein and Hill 2026](https://arxiv.org/abs/2503.14454](https://arxiv.org/pdf/2603.13226))
 
 Plots are provided for all parameters under both the $\tau_n$ and fundamental normalization schemes. Parameters with negligible impact on the abundances ($\Delta\kappa$, $r_p$, $m_Z$) are included here for completeness but are not shown in the main paper.
 
@@ -159,9 +159,7 @@ For nuclear reaction rates, sensitivities are reported as $dY/dp$ where $p$ is t
 Each file contains the ranked decomposition of the total theoretical uncertainty for each observable, with columns:
 - `Parameter`: input parameter or reaction rate
 - `sigma_Yi`: absolute contribution to the uncertainty, $\sigma_{Y_i} = |dY/dp_i| \sigma_{p_i}$
-- `pct_variance`: percentage contribution to the total variance
-
-Parameters contributing less than 0.1% of the total variance are omitted.
+- `frac_var`: fractional contribution to the total variance
 
 ---
 
@@ -171,9 +169,9 @@ Parameters contributing less than 0.1% of the total variance are omitted.
 |------------------------------------|--------------------------------|---------------|
 | $Y_p$                             | $0.2458 \pm 0.0013$           | LBT (2026)    |
 | $Y_p$                             | $0.2370^{+0.0034}_{-0.0033}$  | EMPRESS (2022)|
-| D/H $\times 10^5$                 | $2.547 \pm 0.029$             | PDG (2024)    |
-| Li-7/H $\times 10^{10}$       | $1.6 \pm 0.3$                 | PDG (2024)    |
-| $N_{\text{eff}}$                   | $2.86 \pm 0.13$               | ACT DR6 (2025)|
+| D/H $\times 10^5$                 | $2.508 \pm 0.029$             | PDG (2025)    |
+| Li-7/H $\times 10^{10}$           | $1.45 \pm 0.25$               | PDG (2025)    |
+| $N_{\text{eff}}$                  | $2.990 \pm 0.070$             | CMB+BBN+BAO (2026)|
 
 ---
 
