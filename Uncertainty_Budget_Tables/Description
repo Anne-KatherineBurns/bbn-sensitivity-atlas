@@ -1,0 +1,33 @@
+# BBN Uncertainty Budgets
+
+This folder contains the ranked parameter-level uncertainty budgets for each Big Bang Nucleosynthesis (BBN) observable: **Y_p**, **D/H**, and **⁷Li/H**.
+
+For every observable, the tables list each input parameter's contribution to the total theoretical uncertainty, ranked by fractional variance. The columns are:
+
+| Column | Description |
+|--------|-------------|
+| `parameter` / `param` | Input parameter name (nuclear rate or fundamental/cosmological constant) |
+| `sigma_Yi` | Absolute uncertainty contribution: \|∂Y/∂p\| × σ_p |
+| `frac_var` | Fractional variance contribution: (∂Y/∂p × σ_p)² / σ²_total |
+
+Separate tables are provided for each **weak-rate normalisation** (fundamental vs. neutron lifetime).
+
+## ΔN_eff fixed vs. free
+
+The two subfolders correspond to different treatments of ΔN_eff, the departure of the effective number of neutrino species from the Standard Model value (N_eff = 3.044):
+
+- **`DeltaNeff_fixed/`**: ΔN_eff is held at zero throughout the calculation. This is the standard assumption in which no beyond-SM radiation is present, and ΔN_eff does not appear in the uncertainty budget at all. Use these tables if you are interested in the theoretical error budget under purely Standard Model physics.
+
+- **`DeltaNeff_free/`**: ΔN_eff is treated as a free input parameter with its own 1σ prior (taken from the current CMB+BBN+BAO constraint, arXiv:2603.13226). Because Y_p in particular is strongly sensitive to the expansion rate during BBN, even a modest uncertainty on ΔN_eff can become one of the dominant contributions to the total error budget. These tables therefore show how the uncertainty ranking shifts when the possibility of extra (or missing) relativistic species is included.
+
+Note that because the fiducial value of ΔN_eff is zero, the logarithmic derivative ∂ ln Y / ∂ ln p is undefined for this parameter. The error propagation instead uses the absolute derivative ∂Y/∂(ΔN_eff) directly.
+
+## Methodology
+
+Derivatives ∂Y/∂p are computed numerically by varying each input parameter around its fiducial value. To avoid numerical conditioning issues with parameters whose fiducial values are very small (e.g. the proton charge radius or δκ), the primary quantity extracted from the code is the *logarithmic* derivative ∂ ln Y / ∂ ln p; this is then converted back to ∂Y/∂p = (∂ ln Y / ∂ ln p) × Y_fid / p_fid for error propagation. For parameters with a zero fiducial value (ΔN_eff, μ_ν/T_ν), the absolute derivative ∂Y/∂p is used directly.
+
+Each parameter's variance contribution is (∂Y/∂p × σ_p)², where σ_p is the current 1σ experimental or observational uncertainty on that parameter. The total input uncertainty on observable Y is σ_Y = √Σ (∂Y/∂p_i × σ_{p_i})².
+
+## Note on zero entries
+
+Some parameters may appear with `sigma_Yi = 0` and `frac_var = 0`. This occurs when the true derivative ∂Y/∂p is smaller than the numerical noise floor of the finite-difference calculation, so the extracted derivative is indistinguishable from zero. It does *not* necessarily mean the observable is exactly independent of that parameter — only that the sensitivity is too small to resolve numerically and its contribution to the uncertainty budget is negligible.
