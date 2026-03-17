@@ -21,8 +21,8 @@ This repository contains the full set of numerical results accompanying the BBN 
 Each parameter directory contains plots of the predicted primordial abundances ($Y_p$, D/H $\times 10^5$, ${}^7$Li/H $\times 10^{10}$, and $N_{\text{eff}}$ where applicable) as a function of the fractional parameter variation $\Delta p / p$. All plots show results for both the PRIMAT (blue) and NACRE-II (red/orange) nuclear reaction rate compilations, with observational bands from:
 
 - **Helium-4**: LBT ([Aver et al. 2026](https://arxiv.org/abs/2601.22238)) and EMPRESS ([Matsumoto et al. 2022](https://arxiv.org/abs/2203.09617))
-- **Deuterium**: PDG world average ([Navas et al. 2024](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-bbang-nucleosynthesis.pdf))
-- **Lithium-7**: PDG recommended value ([Navas et al. 2024](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-bbang-nucleosynthesis.pdf))
+- **Deuterium**: PDG world average, 2025 update ([Navas et al. 2025](https://ccwww.kek.jp/pdg/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf)))
+- **Lithium-7**: PDG recommended value, 2025 update ([Navas et al. 2025](https://ccwww.kek.jp/pdg/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf))
 - **N_eff**: ACT DR6 ([Calabrese et al. 2025](https://arxiv.org/abs/2503.14454))
 
 Plots are provided for all parameters under both the $\tau_n$ and fundamental normalization schemes. Parameters with negligible impact on the abundances ($\Delta\kappa$, $r_p$, $m_Z$) are included here for completeness but are not shown in the main paper.
