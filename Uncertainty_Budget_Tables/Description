@@ -6,7 +6,7 @@ For every observable, the tables list each input parameter's contribution to the
 
 | Column | Description |
 |--------|-------------|
-| `parameter` / `param` | Input parameter name (nuclear rate or fundamental/cosmological constant) |
+| `parameter` | Input parameter name (nuclear rate or fundamental/cosmological constant) |
 | `sigma_Yi` | Absolute uncertainty contribution: \|∂Y/∂p\| × σ_p |
 | `frac_var` | Fractional variance contribution: (∂Y/∂p × σ_p)² / σ²_total |
 
