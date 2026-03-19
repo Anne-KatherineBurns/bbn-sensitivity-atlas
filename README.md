@@ -19,6 +19,7 @@ The following is a schematic overview of the BBN calculation as implemented in [
 <img width="1395" height="1037" alt="Screenshot 2026-03-19 at 10 55 30" src="https://github.com/user-attachments/assets/840e8a8d-1672-418f-a53b-f7f6e93b91a2" />
 
 [View PDF](https://github.com/user-attachments/files/26111488/PRyMordial_BBBBN.pdf) 
+
 ---
 
 ## Plots
