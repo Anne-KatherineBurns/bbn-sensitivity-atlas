@@ -10,7 +10,7 @@ Institut de Ciències del Cosmos de la Universitat de Barcelona, Barcelona, Spai
 
 <img width="1395" height="1037" alt="Screenshot 2026-03-19 at 10 55 30" src="https://github.com/user-attachments/assets/840e8a8d-1672-418f-a53b-f7f6e93b91a2" />
 
-Schematic overview of the BBN calculation as implemented in [PRyMordial](https://github.com/vallima/PRyMordial). The three computational stages: background thermodynamics , neutron--proton interconversion rates and the nuclear reaction network are shown along with their three outputs: $N_\text{eff}$, the relic neutrino abundance, and the final light-element abundances. Each colored circle represents a fundamental input parameter varied in this analysis. The symbols described in the legend indicates whether a given quantity depends on the photon temperature, neutrino temperature, or scale factor. Arrows trace how each input propagates through the calculation.[View PDF Here](https://github.com/user-attachments/files/26111488/PRyMordial_BBBBN.pdf) 
+Schematic overview of the BBN calculation as implemented in [PRyMordial](https://github.com/vallima/PRyMordial). The three computational stages: background thermodynamics , neutron--proton interconversion rates and the nuclear reaction network are shown along with their three outputs: $N_\text{eff}$, the relic neutrino abundance, and the final light-element abundances. Each colored circle represents a fundamental input parameter varied in this analysis. The symbols described in the legend indicates whether a given quantity depends on the photon temperature, neutrino temperature, or scale factor. Arrows trace how each input propagates through the calculation. [View PDF Here](https://github.com/user-attachments/files/26111488/PRyMordial_BBBBN.pdf) 
 
 ---
 
