@@ -9,6 +9,7 @@ Anne-Katherine Burns
 Institut de Ciències del Cosmos de la Universitat de Barcelona, Barcelona, Spain
 
 ---
+[PRyMordial (5).pdf](https://github.com/user-attachments/files/26111440/PRyMordial.5.pdf)
 
 ## Overview
 
