@@ -9,11 +9,15 @@ Anne-Katherine Burns
 Institut de Ciències del Cosmos de la Universitat de Barcelona, Barcelona, Spain
 
 ---
-[PRyMordial (5).pdf](https://github.com/user-attachments/files/26111440/PRyMordial.5.pdf)
 
 ## Overview
 
-This repository contains the full set of numerical results accompanying the BBN sensitivity atlas. We provide response functions, sensitivity coefficients, and uncertainty budgets for **14 fundamental physics and cosmological parameters** and **63 thermonuclear reaction rates**. All results are computed using [PRyMordial](https://github.com/vallima/PRyMordial) and presented for two nuclear reaction rate compilations (PRIMAT and NACRE-II) and two weak-rate normalization schemes ($\tau_n$ and fundamental).
+This repository contains the full set of numerical results accompanying the BBN sensitivity atlas. We provide response functions, sensitivity coefficients, and uncertainty budgets for **14 fundamental physics and cosmological parameters** and **63 thermonuclear reaction rates**. All results are computed using [PRyMordial](https://github.com/vallima/PRyMordial) and presented for two nuclear reaction rate compilations (PRIMAT and NACRE-II) and two weak-rate normalization schemes ($\tau_n$ and fundamental). 
+
+![PRyMordial_BBBBN.pdf](https://github.com/user-attachments/files/26111488/PRyMordial_BBBBN.pdf)
+
+
+Schematic overview of the BBN calculation as implemented in [PRyMordial](https://github.com/vallima/PRyMordial). The three computational stages: background thermodynamics , neutron--proton interconversion rates and the nuclear reaction network are shown along with their three outputs: $N_\text{eff}$, the relic neutrino abundance, and the final light-element abundances. Each colored circle represents a fundamental input parameter varied in this analysis. The symbols described in the legend indicates whether a given quantity depends on the photon temperature, neutrino temperature, or scale factor. Arrows trace how each input propagates through the calculation.
 
 ---
 
