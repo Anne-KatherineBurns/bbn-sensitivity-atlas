@@ -4,7 +4,7 @@ Supplementary plots, tables, and numerical results for:
 
 **"Inside the Black Box of Big Bang Nucleosynthesis: Parameter Sensitivity Studies in Light of New LBT Data"**
 
-Anne-Katherine Burns
+Anne-Katherine Burns — [annekatherineburns@icc.ub.edu](mailto:annekatherineburns@icc.ub.edu)
 
 Institut de Ciències del Cosmos de la Universitat de Barcelona, Barcelona, Spain
 
