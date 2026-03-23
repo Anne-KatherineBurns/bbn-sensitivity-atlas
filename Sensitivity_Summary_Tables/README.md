@@ -8,7 +8,7 @@ An easy to read version of this table is available here: https://docs.google.com
 
 | Column | Description |
 |--------|-------------|
-| **Parameter** | The scanned input parameter (e.g., $\alpha_{\rm EM}$, $G_F$, $\tau_n$, nuclear rate shifts $p_$, etc.). |
+| **Parameter** | The scanned input parameter (e.g., $\alpha_{\rm EM}$, $G_F$, $\tau_n$, nuclear rate shifts $p_{}$, etc.). |
 | **Compilation** | The nuclear reaction rate compilation used: PRIMAT or NACRE-II. |
 | **Fiducial parameter value** | The Standard Model (or default) value of the parameter at which derivatives are evaluated. |
 | **Observable** | The BBN observable: $Y_p$ (helium-4 mass fraction), D/H $\times 10^5$ (deuterium-to-hydrogen ratio), ${}^7$Li/H $\times 10^{10}$ (lithium-7-to-hydrogen ratio), or $N_{\rm eff}$ (effective number of neutrino species). |
