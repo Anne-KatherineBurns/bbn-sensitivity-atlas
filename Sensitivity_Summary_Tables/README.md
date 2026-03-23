@@ -14,7 +14,7 @@ An easy to read version of this table is available here: https://docs.google.com
 | **Observable** | The BBN observable: $Y_p$ (helium-4 mass fraction), D/H $\times 10^5$ (deuterium-to-hydrogen ratio), ${}^7$Li/H $\times 10^{10}$ (lithium-7-to-hydrogen ratio), or $N_{\rm eff}$ (effective number of neutrino species). |
 | **$Y_{\rm fid}$** | The predicted value of the observable at the fiducial parameter value. |
 | **$d\ln Y/d\ln p$** ($dY/dp$) | The logarithmic derivative of the observable with respect to the parameter, evaluated at the fiducial point via finite differences. The absolute derivative $dY/dp$ is given instead for parameters in which the fiducial value is 0. |
-| **$R^2_{\rm lin}$** ($R^2_{\rm flat,\,tol}$) | The $R^2$ of a linear fit to the scan data across the full scan range, indicating how well a straight line describes the observable's response. The tolerance-based flatness score $\text{flat\_R}^2_{\rm tol}$ is given instead when the sensitvity curve is so flat that numerical noise causes the value of $R^2_{\rm lin}2$ to be nonsensical. $R^2_{\rm flat,\,tol}$ are marked with an *.|
+| **$R^2_{\rm lin}$** ($R^2_{\rm flat,\,tol}$) | The $R^2$ of a linear fit to the scan data across the full scan range, indicating how well a straight line describes the observable's response. The tolerance-based flatness score $R^2_{\rm flat,\,tol}$ is given instead when the sensitvity curve is so flat that numerical noise causes the value of $R^2_{\rm lin}2$ to be nonsensical. $R^2_{\rm flat,\,tol}$ are marked with an *.|
 
 ### Note on nuclear rate parameters
 
