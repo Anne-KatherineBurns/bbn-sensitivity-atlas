@@ -12,9 +12,9 @@ For every observable, the tables list each input parameter's contribution to the
 
 Separate tables are provided for each **weak-rate normalisation** (fundamental vs. neutron lifetime).
 
-Easy to read versions of the tables in which ΔN_eff is fixed can be found here: https://docs.google.com/spreadsheets/d/1lhLGLuc0OoH2fJSkFnVyA0xnGl7uPydW0z5IllYiol4/edit?usp=sharing
+Easy to read versions of the tables in which ΔN_eff is fixed can be found [here.](https://docs.google.com/spreadsheets/d/1lhLGLuc0OoH2fJSkFnVyA0xnGl7uPydW0z5IllYiol4/edit?usp=sharing)
 
-Easy to read versions of the tables in which ΔN_eff is free can be found here: https://docs.google.com/spreadsheets/d/1ts4Eru80HZnpO5bNN47WF-PjMXBKwEKTNF8VIOb_Svk/edit?usp=sharing
+Easy to read versions of the tables in which ΔN_eff is free can be found [here.](https://docs.google.com/spreadsheets/d/1ts4Eru80HZnpO5bNN47WF-PjMXBKwEKTNF8VIOb_Svk/edit?usp=sharing)
 
 ## ΔN_eff fixed vs. free
 
