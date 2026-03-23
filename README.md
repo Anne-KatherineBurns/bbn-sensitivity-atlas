@@ -27,7 +27,7 @@ Each parameter directory contains plots of the predicted primordial abundances (
 - **Helium-4**: LBT ([Aver et al. 2026](https://arxiv.org/abs/2601.22238)) and EMPRESS ([Matsumoto et al. 2022](https://arxiv.org/abs/2203.09617))
 - **Deuterium**: PDG world average, 2025 update ([Navas et al. 2025](https://ccwww.kek.jp/pdg/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf)))
 - **Lithium-7**: PDG recommended value, 2025 update ([Navas et al. 2025](https://ccwww.kek.jp/pdg/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf))
-- **N_eff**: CMB+BBN+BAO ([Goldstein and Hill 2026](https://arxiv.org/abs/2503.14454](https://arxiv.org/pdf/2603.13226))
+- **N_eff**: CMB+BBN+BAO ([Goldstein and Hill 2026](https://arxiv.org/pdf/2603.13226))
 
 Plots are provided for all parameters under both the $\tau_n$ and fundamental normalization schemes. Parameters with negligible impact on the abundances ($\Delta\kappa$, $r_p$, $m_Z$) are included here for completeness but are not shown in the main paper.
 
