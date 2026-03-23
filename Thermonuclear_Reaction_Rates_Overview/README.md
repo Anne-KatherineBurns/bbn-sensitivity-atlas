@@ -1,1 +1,4 @@
+# Thermonuclear Reaction Rates Overview
+
+
 Sensitivity of standard BBN abundance predictions to 1 sigma variations of individual nuclear reaction rates. For each reaction, the vertical bars show the range of predicted Y_p, D/H x 10^5, and Li-7/H x 10^10 obtained by setting that rate to its lower and upper 1 sigma values while keeping all other rates fixed; markers indicate the median prediction. Blue circles correspond to the PRIMAT rate compilation, and orange squares to NACRE-II.
