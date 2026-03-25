@@ -198,12 +198,13 @@ The individual derivatives provided here are the building blocks for this calcul
 If you use the results in this repository, please cite:
 
 ```bibtex
-@article{Burns:2026xxx,
+@article{Burns:2026wlw,
     author = "Burns, Anne-Katherine",
-    title = "{Inside the Black Box of Big Bang Nucleosynthesis: Parameter Sensitivity Studies in Light of New LBT Data}",
-    eprint = "XXXX.XXXXX",
+    title = "{Inside the Black Box of Big Bang Nucleosynthesis: Parameter Sensitivity Studies in Light of new LBT Data}",
+    eprint = "2603.22414",
     archivePrefix = "arXiv",
     primaryClass = "hep-ph",
+    month = "3",
     year = "2026"
 }
 ```
