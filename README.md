@@ -1,4 +1,4 @@
-# BBN Sensitivity Atlas: Supplementary Material
+# BBN Sensitivity Atlas
 
 Supplementary plots, tables, and numerical results for:
 
